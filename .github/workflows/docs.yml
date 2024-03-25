@@ -21,8 +21,10 @@ jobs:
           python -m pip install -r .github/workflows/requirements.txt
 
       - name: Execute the notebooks
-        run: |
-          jupytext --to ipynb --execute docs/source/tutorials/*.py
+        uses: "treebeardtech/nbmake-action@v0.2"
+        with:
+          notebooks: docs/source/tutorials/*.ipynb
+          path-output: docs/source/tutorials/
 
       - uses: actions/upload-artifact@v2
         with:
