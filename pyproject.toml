@@ -1,0 +1,35 @@
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "woseco"
+version = "0.1.0"
+description = "A tool for operationalising the WOSEC task"
+authors = [
+    "Owen G.W. Saunders <os318@exeter.ac.uk>",
+    "Edith Haimedith.haim@unitn.it",
+]
+license = "BSD-3-Clause"
+keywords = ["woseco", "operationalisation", "task"]
+readme = "README.md"
+packages = [
+    {include = "woseco", from = "."},
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: BSD 3 License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Typing :: Typed",
+]
+
+
+[tool.poetry.dependencies]
+python = "^3.9"
+sphinx = "^7.2.6"
+sphinx-rtd-theme = "^1.0.0"
