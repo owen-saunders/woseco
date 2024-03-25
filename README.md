@@ -4,6 +4,8 @@
 
 A python package for operationalising the woseco task.
 
+![Woseco](docs/source/_static//woseco_verbal.png)
+
 ## Citing
 
 Please add the following details to your references if used for non-personal use:
