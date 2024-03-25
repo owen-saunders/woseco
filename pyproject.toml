@@ -33,3 +33,6 @@ classifiers = [
 python = "^3.9"
 sphinx = "^7.2.6"
 sphinx-rtd-theme = "^1.0.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^8.1.1"
