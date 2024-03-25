@@ -15,6 +15,7 @@ build:
     # rust: "1.64"
     # golang: "1.19"
   jobs:
+    # Set the install method to poetry manually
     pre_create_environment:
       - asdf plugin add poetry
       - asdf install poetry latest
