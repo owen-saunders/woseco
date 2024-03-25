@@ -1,0 +1,2 @@
+# Notebook dependencies
+jupytext==0.6.5
